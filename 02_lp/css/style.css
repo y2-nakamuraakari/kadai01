@@ -1,0 +1,431 @@
+/* ここから下に記載していく */
+/* ここからヘッダーデザイン */
+.header__nav {
+    display: flex;
+}
+
+.header__nav li {
+    margin-left: 40px;
+}
+
+/* header */
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* ここからメインビジュアル */
+.mainvisual{
+    height: 400px;
+    background: url("../img/mainbg.png");
+    background-position: center;
+    background-size: cover;
+}
+.mainvisual__title{
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    padding-top: 180px;
+}
+.mainvisual__subtitle{
+    font-size: 30px;
+    /* font-weight: bold; */
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* ここからAbout */
+.about__title{
+    font-size: 20px;
+    font-weight: bold;
+    color: darkorange;
+    text-align: center;
+    margin-top: 60px;
+}
+.about__subtitle{
+    font-size: 20px;
+    font-weight: bold;
+    /* color: #fff; */
+    text-align: center;
+    margin-top: 30px;
+}
+.about__subsubtitle{
+    font-size: 15px;
+    /* font-weight: bold; */
+    /* color: #fff; */
+    text-align: center;
+    margin-top: 60px;
+}
+.about__paragraph01{
+    font-size: 15px;
+    /* font-weight: bold; */
+    /* color: #fff; */
+    text-align: center;
+    margin-top: 40px;
+}
+.about__paragraph02{
+    font-size: 15px;
+    /* font-weight: bold; */
+    /* color: #fff; */
+    text-align: center;
+    margin-top: 40px;
+}
+.about__paragraph03{
+    font-size: 15px;
+    /* font-weight: bold; */
+    /* color: #fff; */
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* ここから画像4枚 */
+.imgbox {
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 60px;
+}
+.imgbox p{
+    width: 25%;
+}
+.imgbox p{
+    width: 80%;
+}
+
+/* ここからCourse */
+.course__title{
+    font-size: 20px;
+    font-weight: bold;
+    color: darkorange;
+    text-align: center;
+    margin-top: 60px;
+}
+.course__subtitle{
+    font-size: 20px;
+    font-weight: bold;
+    /* color: #fff; */
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* ここから写真とテキスト */
+/* 一段目 */
+.flex01 {
+    margin:0 auto;
+    text-align: center;
+    display: flex;
+    /* width: 100%;
+    height: 100%; */
+    margin-top: 60px;
+    justify-content: space-around;
+    align-items: center; 
+    background-color: rgb(252, 252, 252)
+}
+.flex01 .image{
+    display: flex;
+    /* width: 100%;
+    height: 100%; */
+}
+.flex01 .one__title{
+    font-size: 20px;
+    font-weight: bold;
+    /* color: #fff; */
+    text-align: center;
+}
+.flex01 .one__text{
+    font-size: 15px;
+    /* font-weight: bold; */
+    /* color: #fff; */
+    text-align: center;
+    margin-top: 30px;
+}
+/* 二段目 */
+.flex02 {
+    margin:0 auto;
+    text-align: center;
+    display: flex;
+    /* width: 100%;
+    height: 100%; */
+    /* margin-top: 60px; */
+    justify-content: space-around;
+    align-items: center; 
+    background-color: rgb(252, 252, 252)
+}
+.flex02 .image{
+    display: flex;
+    margin-left: 30px;
+    /* width: 100%;
+    height: 100%; */
+}
+.flex02 .twe__title{
+    font-size: 20px;
+    font-weight: bold;
+    /* color: #fff; */
+    text-align: center;
+}
+.flex02 .twe__text{
+    font-size: 15px;
+    /* font-weight: bold; */
+    /* color: #fff; */
+    text-align: center;
+    margin-top: 30px;
+}
+/* 三段目 */
+.flex03 {
+    margin:0 auto;
+    text-align: center;
+    display: flex;
+    /* width: 100%;
+    height: 100%; */
+    /* margin-top: 60px; */
+    justify-content: space-around;
+    align-items: center; 
+    background-color: rgb(252, 252, 252)
+}
+.flex03 .image{
+    display: flex;
+    margin-left: 15px;
+    /* width: 100%;
+    height: 100%; */
+}
+.flex03 .three__title{
+    font-size: 20px;
+    font-weight: bold;
+    /* color: #fff; */
+    text-align: center;
+}
+.flex03 .three__text{
+    font-size: 15px;
+    /* font-weight: bold; */
+    /* color: #fff; */
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* ここからNews */
+.news__title{
+    font-size: 20px;
+    font-weight: bold;
+    color: darkorange;
+    text-align: center;
+    margin-top: 60px;
+}
+.news__subtitle{
+    font-size: 20px;
+    font-weight: bold;
+    /* color: #fff; */
+    text-align: center;
+    margin-top: 30px;
+}
+.news-list{
+   display: flex;
+   justify-content: space-around;
+   margin-top: 60px;
+}
+.news-list .news{
+    width: 25%;
+}
+.news-list .news .image{
+    margin: 0%;
+    padding: 0%;
+}
+.news-list .news .image img{
+    width: 100%;
+}
+.news-list .news .title{
+    margin-top: 30px;
+    font-size: 15px;
+}
+.news-list .news .description{
+    margin-top: 24px;
+    font-size: 15px;
+}
+
+/* ここからMoreボタン */
+.button{
+    background:gold;
+    padding:1em 1em;
+    border:black 2px solid;
+    text-decoration:none;
+    text-align: center;
+    color:black;
+    font: size 18px;
+    font-family:sans-serif;
+    font-weight: bold;
+  }
+  .block{
+    display:block;
+    width:300px;
+    height: 20px;
+    margin:0 auto;
+    margin-top: 60px;
+  }
+
+/* ここから地図 */
+.mapgide__title{
+    font-size: 20px;
+    font-weight: bold;
+    color: darkorange;
+    text-align: center;
+    margin-top: 60px;
+}
+.mapgide__subtitle{
+    font-size: 20px;
+    font-weight: bold;
+    /* color: #fff; */
+    text-align: center;
+    margin-top: 30px;
+}
+.map{
+    margin-top: 20px;
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-top: 100%;/*比率をお好みで*/
+}
+.map iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 25%;
+}
+
+/* ここから文章 */
+.access-table{
+    text-align: center;
+    font-size: 15px;
+}
+.access-dt{
+    font-weight: bold;
+}
+dl {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+  }
+  dl dt {
+    width: 40%;
+    margin-top: 10px;
+  }
+  dl dd {
+    width: 60%;
+    margin-top: 10px;
+  }
+
+/* ここから問合せフォーム（テキスト） */
+.contact{
+    margin-top: 60px;
+}
+.contact__title{
+    font-size: 20px;
+    font-weight: bold;
+    color: darkorange;
+    text-align: center;
+    margin-top: 60px;
+}
+.contact__subtitle{
+    font-size: 20px;
+    font-weight: bold;
+    /* color: #fff; */
+    text-align: center;
+    margin-top: 30px;
+}
+.contact__text01{
+    font-size: 15px;
+    /* font-weight: bold; */
+    /* color: #fff; */
+    text-align: center;
+    margin-top: 60px;
+}
+.contact__text02{
+    font-size: 15px;
+    /* font-weight: bold; */
+    /* color: #fff; */
+    text-align: center;
+    margin-top: 30px;
+}
+.contact__text03{
+    font-size: 15px;
+    font-weight: bold;
+    color: red;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* ここから問合せフォーム */
+.form {
+    margin-top: 70px;
+    /* margin-left: 400px; */
+}
+
+.form {
+	position: relative;
+	width: 80%;
+	margin: 40px 3%;
+}
+.form input[type='text'] {
+    /* text-align: center; */
+	font: 15px/24px sans-serif;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 0.3em;
+	transition: 0.3s;
+	letter-spacing: 1px;
+	color: #aaaaaa;
+	border: 1px solid #ffffff;
+	box-shadow: 1px 1px 2px 0 #707070 inset;
+	border-radius: 4px;
+    margin-top: 20px;
+}
+
+
+
+
+
+.form input[type='text']:focus {
+    /* text-align: center; */
+	outline: none;
+	box-shadow: inset 1px 1px 2px 0 #c9c9c9;
+}
+
+
+/* ここから送信ボタン */
+.button{
+    background:gold;
+    padding:1em 1em;
+    border:black 2px solid;
+    text-decoration:none;
+    text-align: center;
+    color:black;
+    font: size 18px;
+    font-family:sans-serif;
+    font-weight: bold;
+  }
+  .block{
+    display:block;
+    width:300px;
+    height: 20px;
+    margin:0 auto;
+    margin-top: 60px;
+  }
+
+
+
+/* ここからフッター */
+.footer{
+    padding-top: 140px;
+}
+.footer-message{
+    text-align: center;
+    padding-top: 16px;
+    background-color: brown;
+    color: cornsilk;
+    /* font-weight: bold; */
+    height: 28px;
+}
